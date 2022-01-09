@@ -16719,9 +16719,3 @@ IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
 IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
 IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
 IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
-
-GEOIP,CN,DIRECT
-FINAL,PROXY
-
-[URL Rewrite]
-^http://(www.)?google.cn https://www.google.com 302
